@@ -63,7 +63,7 @@ li a:hover {
   position:relative;
   z-index:-1;
   top:0; left:0;
-  transform: rotate(120deg);
+  transform: rotate(270deg);
   padding:30px;
   width:100%;
   max-width:800px;

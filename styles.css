@@ -57,13 +57,24 @@ li a:hover {
 
 /* Header */
 
-.Blue {
-  
+.a {
+    margin: 130px;
+  display:inline-block;
+  position:relative;
+  z-index:-1;
+  top:0; left:0;
+  transform: rotate(90deg);
+  padding:30px;
+  width:100%;
+  max-width:8000px;
 }
-.red {
-  padding: -30px;
+.b {
   position: relative;
   text-align: center;
+  position:absolute;
+  z-index:2;
+  top:40%; left:45%;
+  border-radius: 50%;
   
 }
 /* Centered text */

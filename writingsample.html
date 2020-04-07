@@ -1,0 +1,66 @@
+<!doctype html>
+<head>
+  <background color="white" width="100%">
+  <meta charset="utf-8">
+  <title>Writing Samples</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<!--Navigation-->
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a class="active" href="#news">Writing Samples</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+  <!--Header-->
+    <div class="container" style="padding-top" margin-top:"-10px">
+       <img src="C:\Users\Becky Daleiden\Desktop\WritingSamples\coverpicture.jpeg" class="a" width="100%">
+       <div class="centered">Hi, I'm Becky</div>
+       <img src="C:\Users\Becky Daleiden\Desktop\WritingSamples\pic.jpg" class="b" width=15%>
+     </div>
+   </head>
+   <body>
+
+   <h1>Writing Samples</h1>
+
+
+   <button class="accordion">Creating an Eco-Friendly Showerhead</button>
+   <div class="panel">
+     <p>This is a research brief I did for my Science, Medical, and Health course that demonstrates how companies create showerheads that are both enviornmentally friendly and cost effective while still providing the consumer with a great user expierence.</p>
+     <a href="C:\Users\Becky Daleiden\Desktop\WritingSamples\researchbrief.pdf"download>
+       <button class="button"><span>Download the PDF here</span></button>
+    </a>
+   </div>
+
+   <button class="accordion">Section 2</button>
+   <div class="panel">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   </div>
+
+   <button class="accordion">Section 3</button>
+   <div class="panel">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+   </div>
+
+   <script>
+   var acc = document.getElementsByClassName("accordion");
+   var i;
+
+   for (i = 0; i < acc.length; i++) {
+     acc[i].addEventListener("click", function() {
+       this.classList.toggle("active");
+       var panel = this.nextElementSibling;
+       if (panel.style.display === "block") {
+         panel.style.display = "none";
+       } else {
+         panel.style.display = "block";
+       }
+     });
+   }
+   </script>
+
+   </body>
+   </html>

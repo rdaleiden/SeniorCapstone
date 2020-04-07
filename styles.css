@@ -1,0 +1,231 @@
+
+html, body {
+  font-family:georgia, serif;
+  letter-spacing:0.01em;
+  text-align:left;
+  width:100%;
+  max-width: 800px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  position:relative;
+   }
+
+
+/*Navigation*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color:white;
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+
+/* Header */
+.container {
+  padding: -30px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 23%;
+  transform: translate(50%, 50%);
+  color: white;
+  font-size: 40px;
+  font-family: open-sans;
+}
+div {
+ position:relative;
+}
+.a {
+  margin:-130px;
+  display:inline-block;
+  position:relative;
+  z-index:-1;
+  top:0; left:0;
+  transform: rotate(270deg);
+  padding:10px;
+  width:100%;
+  max-width:620px;
+}
+.b {
+  position:absolute;
+  z-index:2;
+  top:40%; left:45%;
+  border-radius: 50%;
+}
+/*heading of text*/
+h1{
+  padding:-40px;
+  font-family:Georgia,serif;
+  font-size:35px;
+  font-style:normal;
+}
+h2{
+  padding:10px;
+  font-size:20px;
+  font-style:normal;
+  font-weight:600;
+  font-family:georgia, serif;
+  letter-spacing:0.01em;
+  text-align:center;
+}
+/*Resume*/
+.button{
+  text-align:center;
+  float:center;
+  padding: 15px 40px;
+  border-radius:70px;
+  background-color:white;
+  border:2px solid #4CAF50;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 40px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*UMN Image*/
+.myImage {
+  padding: 15px 40px;
+  float: left;
+  width: 55%;
+  max-width:"100px";
+  font-family: Veranda;
+}
+/*Text*/
+.heading {
+  float:right;
+}
+p{
+  text-indent:30px;
+  padding:10px;
+  text-align:left;
+  font-size:17px;
+  letter-spacing:0.09em;
+}
+h3{
+  text-align:center;
+  padding:-10px;
+  font-size:20px;
+}
+h4{
+  text-align:center;
+  padding:-50px;
+  font-size:20px;
+}
+
+
+/*Contact Form Container*/
+
+* {
+  box-sizing:border-box;
+  position:relative;
+  text-align:center
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  float:center;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #006600;
+}
+
+
+/* Style the container/contact section */
+.contact-container {
+  padding:10px;
+  border-radius: 6px;
+  background-color: #788b41;
+  text-align:center;
+  width:100%;
+  max-width:1000px;
+
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: right;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  float:center;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }

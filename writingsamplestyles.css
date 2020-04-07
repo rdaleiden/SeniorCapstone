@@ -1,0 +1,166 @@
+
+html, body {
+  font-family:georgia, serif;
+  letter-spacing:0.01em;
+  text-align:left;
+  width:100%;
+  max-width: 800px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  position:relative;
+   }
+
+
+   ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+   }
+
+   li {
+     float: left;
+   }
+
+   li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+   }
+
+   li a:hover:not(.active) {
+     background-color: #111;
+   }
+
+   .active {
+     background-color: #4CAF50;
+   }
+
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {float: none;}
+}
+
+/* Header */
+.container {
+  padding: -30px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 23%;
+  transform: translate(50%, 50%);
+  color: white;
+  font-size: 40px;
+  font-family: open-sans;
+}
+div {
+ position:relative;
+}
+.a {
+  margin:-130px;
+  display:inline-block;
+  position:relative;
+  z-index:-1;
+  top:0; left:0;
+  transform: rotate(270deg);
+  padding:10px;
+  width:100%;
+  max-width:620px;
+}
+.b {
+  position:absolute;
+  z-index:2;
+  top:40%; left:45%;
+  border-radius: 50%;
+}
+
+/*Text*/
+.heading {
+  float:right;
+}
+
+h1{
+  text-align:center;
+  padding:-10px;
+  font-size:30px;
+  font-family: open-sans;
+  font-stretch: expanded;
+}
+
+p{
+  font-family:Calibri;
+  font-stretch: extra-expanded;
+}
+/*Accordion*/
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+/*PDF Link*/
+.button{
+  text-align:center;
+  margin-left: 100px;
+  left:60%;
+  font-family: calibri;
+  font-size: 15px;
+  padding: 15px 40px;
+  border-radius:70px;
+  background-color:white;
+  border:2px solid #4CAF50;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 40px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }

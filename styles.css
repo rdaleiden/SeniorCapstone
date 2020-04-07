@@ -60,13 +60,14 @@ li a:hover {
   padding: -30px;
   position: relative;
   text-align: center;
-  color: white;
+  transform: rotate(90deg);
+ 
 }
 .red {
   padding: -30px;
   position: relative;
   text-align: center;
-  color: white;
+  
 }
 /* Centered text */
 .centered {
@@ -106,6 +107,7 @@ h1{
   font-family:Georgia,serif;
   font-size:35px;
   font-style:normal;
+
 }
 h2{
   padding:10px;

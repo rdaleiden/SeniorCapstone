@@ -5,7 +5,7 @@ html, body {
   letter-spacing:0.01em;
   text-align:left;
   width:100%;
-  max-width: 590px;
+  max-width:400px;
   height: 100%;
   margin: 0px;
   padding: 0px;
@@ -63,7 +63,7 @@ li a:hover {
   position:relative;
   z-index:-1;
   top:0; left:0;
-  transform: rotate(270deg);
+  transform: rotate(360deg);
   padding:10px;
   width:100%;
   height:100%;

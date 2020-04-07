@@ -82,7 +82,7 @@ li a:hover {
 .centered {
   position: absolute;
   top: 65%;
-  left: 40%;
+  left: 36%;
   transform: translate(50%, 50%);
   color: white;
   font-size: 40px;

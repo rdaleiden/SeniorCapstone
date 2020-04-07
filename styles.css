@@ -90,24 +90,6 @@ li a:hover {
 div {
  position:relative;
 }
-.a {
-  margin: 130px;
-  display:inline-block;
-  position:relative;
-  z-index:-1;
-  top:0; left:0;
-  transform: rotate(270deg);
-  padding:30px;
-  width:100%;
-  max-width:8000px;
-}
-.b {
-  position:absolute;
-  z-index:2;
-  top:40%; left:45%;
-  border-radius: 50%;
-}
-
 
 /*heading of text*/
 h1{

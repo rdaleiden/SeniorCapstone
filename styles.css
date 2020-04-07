@@ -56,14 +56,18 @@ li a:hover {
 }
 
 /* Header */
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .Blue {
   padding: -30px;
   position: relative;
   text-align: center;
   transform: rotate(90deg);
-  max-width:100%;
-  height:auto;
-  max-height:100%;
+  width: 100%;
+  height: auto;
  
 }
 .red {

@@ -56,14 +56,18 @@ li a:hover {
 }
 
 /* Header */
-.container {
-  img1: transform: rotate (90deg);
+.Blue {
   padding: -30px;
   position: relative;
   text-align: center;
   color: white;
 }
-
+.red {
+  padding: -30px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
 /* Centered text */
 .centered {
   position: absolute;
@@ -94,6 +98,8 @@ div {
   top:40%; left:45%;
   border-radius: 50%;
 }
+
+
 /*heading of text*/
 h1{
   padding:-40px;

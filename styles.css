@@ -58,13 +58,7 @@ li a:hover {
 /* Header */
 
 .Blue {
-  padding: 30px;
-  width: 100%;
-  max-width: 100px;
-  position: relative;
-  text-align: center;
-  transform: rotate(90deg);
-  float: center;
+  
 }
 .red {
   padding: -30px;
@@ -86,15 +80,15 @@ div {
  position:relative;
 }
 .a {
-  margin:-130px;
+  margin: 130px;
   display:inline-block;
   position:relative;
   z-index:-1;
   top:0; left:0;
   transform: rotate(270deg);
-  padding:10px;
+  padding:30px;
   width:100%;
-  max-width:620px;
+  max-width:8000px;
 }
 .b {
   position:absolute;

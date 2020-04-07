@@ -58,15 +58,15 @@ li a:hover {
 /* Header */
 
 .a {
-  margin: 130px;
+  margin: 30px;
   display:inline-block;
   position:relative;
   z-index:-1;
   top:0; left:0;
-  transform: rotate(270deg);
-  padding:30px;
+  transform: rotate(180deg);
+  padding:10px;
   width:100%;
-  max-width:800px;
+  max-width:1000px;
 }
 .b {
   position: relative;

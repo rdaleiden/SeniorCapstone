@@ -61,6 +61,8 @@ li a:hover {
   position: relative;
   text-align: center;
   transform: rotate(90deg);
+  width: 100%;
+  hieght: 40px;
  
 }
 .red {

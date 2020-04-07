@@ -58,15 +58,14 @@ li a:hover {
 /* Header */
 
 .Blue {
-  padding: -30px;
+  padding: 30px;
+  width: 100%;
+  max-width: 100px;
+  background-size: 100% 200px;
   position: relative;
   text-align: center;
   transform: rotate(90deg);
-  padding: 15px 40px;
   float: center;
-  width: 100%;
-  max-width:"100px";
- 
 }
 .red {
   padding: -30px;

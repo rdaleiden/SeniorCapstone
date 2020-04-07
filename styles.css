@@ -202,11 +202,12 @@ input[type=submit]:hover {
 .contact-container {
   padding:10px;
   border-radius: 6px;
-  background-color: #66cc99;
+  background-color: #527a7a;
   text-align:center;
   width:100%;
   max-width:1000px;
   margin: 0 auto;
+  color: white;
 }
 
 /* Create two columns that float next to eachother */

@@ -115,13 +115,13 @@ h1{
 
 }
 h2{
-  padding:10px;
-  font-size:20px;
-  font-style:normal;
-  font-weight:600;
-  font-family:georgia, serif;
-  letter-spacing:0.01em;
-  text-align:center;
+  padding: 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: georgia, serif;
+  letter-spacing: 0.01em;
+  text-align: center;
 }
 /*Resume*/
 .button{

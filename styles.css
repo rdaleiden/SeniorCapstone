@@ -62,10 +62,10 @@ li a:hover {
   position: relative;
   text-align: center;
   transform: rotate(90deg);
-  max-width: 100%;
-  min-width: 300px;
-  max-height: auto;
-  min-height: auto;
+  padding: 15px 40px;
+  float: center;
+  width: 100%;
+  max-width:"100px";
  
 }
 .red {
@@ -151,6 +151,8 @@ h2{
 .myImage {
   padding: 15px 40px;
   float: left;
+  height: 40%;
+  max-height: 100%;
   width: 55%;
   max-width:"100px";
   font-family: Veranda;

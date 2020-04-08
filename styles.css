@@ -133,6 +133,13 @@ h2{
   opacity: 1;
   right: 0;
 }
+.linkedin
+  text-align:center;
+  float:center;
+  padding: 15px 40px;
+  border-radius:70px;
+  background-color:white;
+  
 /*UMN Image*/
 .myImage {
   padding: 15px 40px;

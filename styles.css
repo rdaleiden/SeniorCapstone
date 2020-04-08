@@ -92,6 +92,11 @@ div {
  position:relative;
 }
 
+/*Text*/
+.heading {
+  float:right;
+}
+
 /*heading of text*/
 h1{
   padding:-40px;

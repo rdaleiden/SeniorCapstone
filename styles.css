@@ -143,8 +143,7 @@ h2{
 .linkedin {
   text-align:center;
   float:center;
-  padding: 30px 80px;
-  border-radius:0px;
+  padding: 0px;
   background-color:white;
 }
 

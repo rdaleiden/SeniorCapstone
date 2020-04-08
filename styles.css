@@ -119,6 +119,7 @@ h2{
 .button{
   text-align:center;
   float:center;
+  position: absolute;
   padding: 10px 40px;
   border-radius:70px;
   background-color:white;

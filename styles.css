@@ -132,15 +132,8 @@ h2{
 .button:hover span:after {
   opacity: 1;
   right: 0;
-  
-.close {
-   background-image: url(https://logodownload.org/wp-content/uploads/2019/03/linkedin-logo.png);
-    background-size: 50px 30px;
-    height: 30px;  
-    width: 60px;
-}
-}
-/*
+
+
 .linkedin {
   text-align:center;
   float:center;
@@ -148,7 +141,7 @@ h2{
   border-radius:70px;
   background-color:white;
 }
-*/
+
 /*UMN Image*/
 .myImage {
   padding: 15px 40px;

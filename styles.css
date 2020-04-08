@@ -126,7 +126,7 @@ h2{
 }
 .button span:after {
   content: '\00bb';
-  position: absolute;
+  position: relative;
   opacity: 0;
   top: 0;
   right: -20px;
@@ -150,7 +150,7 @@ h2{
 
 /*UMN Image*/
 .myImage {
-  padding: 15px 40px;
+  padding: 20px 40px;
   float: left;
   height: 40%;
   max-height: 100%;

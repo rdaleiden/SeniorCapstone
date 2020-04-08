@@ -224,7 +224,7 @@ input[type=submit]:hover {
   text-align:center;
   width:100%;
   max-width:1000px;
-
+  float: center;
 }
 
 /* Create two columns that float next to eachother */

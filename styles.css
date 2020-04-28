@@ -220,7 +220,8 @@ input[type=submit]:hover {
 .contact-container {
   padding:10px;
   border-radius: 6px;
-  background-color: #788b41;
+  background-color: #cccccc;
+  font-color: white;
   text-align:center;
   width:100%;
   max-width:1000px;

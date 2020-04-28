@@ -204,7 +204,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #808080;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -212,7 +212,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #006600;
+  background-color: #595959;
 }
 
 
@@ -230,7 +230,7 @@ input[type=submit]:hover {
 
 /* Create two columns that float next to eachother */
 .column {
-  float: right;
+  float: center;
   width: 100%;
   margin-top: 20px;
   padding: 20px;

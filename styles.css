@@ -9,7 +9,6 @@ html, body {
   font-style: normal;
   text-align:left;
   width:100%;
-  max-width:400px;
   height: 100%;
   margin: 0px;
   padding: 0px;
@@ -96,7 +95,7 @@ li a:hover {
   transform: translate(50%, 50%);
   color: white;
   font-size: 40px;
-  font-family: open-sans;
+  font-family: brandon-grotesque, sans-serif;;
 }
 
 div {
@@ -111,7 +110,7 @@ div {
 /*heading of text*/
 h1{
   padding:-40px;
-  font-family:Georgia,serif;
+  font-family:brandon-grotesque, sans-serif;;
   font-size:35px;
   font-style:normal;
   text-align: center;

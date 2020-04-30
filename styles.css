@@ -95,7 +95,7 @@ li a:hover {
   transform: translate(50%, 50%);
   color: white;
   font-size: 40px;
-  font-family: brandon-grotesque, sans-serif;
+  font-family: open-sans;
 }
 
 div {

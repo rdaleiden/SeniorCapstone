@@ -58,6 +58,8 @@ li a:hover:not(.active) {
 li a:hover {
   background-color: #111;
   color:white;
+}
+
 .active {
   background-color: #b3b3b3;
 }

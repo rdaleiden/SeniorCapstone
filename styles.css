@@ -31,7 +31,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: #333;
 }
 
 li {
@@ -72,6 +72,15 @@ li a:hover {
   ul.topnav li.right,
   ul.topnav li {float: none;}
 }
+  
+.container {
+  font-family: brandon-grotesque, sans-serif;
+  src:url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  text-align: center;
+  font-size:35px;
+  font-weight: 200;
+  font-style:normal;
+  }
   
 h1{
   padding:-40px;

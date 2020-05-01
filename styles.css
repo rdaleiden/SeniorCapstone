@@ -32,6 +32,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  position: fixed;
 }
 
 li {
@@ -94,5 +95,10 @@ li a:hover {
   text-align: center;
   }
 
-
+.myImage {
+  padding: 15px 40px;
+  float: left;
+  width: 30%;
+  max-width:"100px";
+}
 </STYLE>

@@ -80,80 +80,61 @@ li a:hover {
 /*heading of text*/
 h1{
   padding:-40px;
-  font-family: brandon-grotesque, sans-serif;
-   src:url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-  font-display:auto;
-  font-style:normal;
-  font-weight:400;
+  font-family:Georgia,serif;
   font-size:35px;
   font-style:normal;
-  text-align: center;
-
 }
 h2{
-  padding: 20px;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 200;
-  font-family: brandon-grotesque, sans-serif;
-  letter-spacing: 0.01em;
-  text-align: center;
+  padding:10px;
+  font-size:20px;
+  font-style:normal;
+  font-weight:600;
+  font-family:georgia, serif;
+  letter-spacing:0.01em;
+  text-align:center;
 }
 /*Resume*/
 .button{
   text-align:center;
-  float:right;
-  position: absolute;
-  padding: 10px 40px;
+  float:center;
+  padding: 15px 40px;
   border-radius:70px;
   background-color:white;
   border:2px solid #4CAF50;
 }
 .button span:after {
   content: '\00bb';
-  position: relative;
+  position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
 }
 .button:hover span {
-  padding-right: 20px;
+  padding-right: 40px;
 }
 .button:hover span:after {
   opacity: 1;
   right: 0;
 }
-
-.linkedin {
-  text-align:center;
-  float:left;
-  padding:50px;
-  background-color:white;
-}
-
 /*UMN Image*/
 .myImage {
-  padding: 20px 40px;
+  padding: 15px 40px;
   float: left;
-  height: 30%;
-  max-height: 100%;
   width: 55%;
   max-width:"100px";
-  font-family:brandon-grotesque, sans-serif;
+  font-family: Veranda;
 }
 /*Text*/
 .heading {
   float:right;
 }
-p {
-  font-family:brandon-grotesque, sans-serif;
-  font-weight: 200px;
-  float:center;
+p{
   text-indent:30px;
   padding:10px;
   text-align:left;
   font-size:17px;
+  letter-spacing:0.09em;
 }
 h3{
   text-align:center;
@@ -165,6 +146,7 @@ h4{
   padding:-50px;
   font-size:20px;
 }
+
 
 
 </STYLE>

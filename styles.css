@@ -73,6 +73,19 @@ li a:hover {
   ul.topnav li {float: none;}
 }
 
+/* Header */
+.container {
+  padding: -30px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 23%;
 h1{
   padding:-40px;
   font-family:brandon-grotesque, sans-serif;

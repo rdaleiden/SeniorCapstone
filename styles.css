@@ -31,7 +31,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #444444;
+  background-color: white;
 }
 
 li {
@@ -72,20 +72,7 @@ li a:hover {
   ul.topnav li.right,
   ul.topnav li {float: none;}
 }
-
-/* Header */
-.container {
-  padding: -30px;
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 60%;
-  left: 23%;
+  
 h1{
   padding:-40px;
   font-family:brandon-grotesque, sans-serif;

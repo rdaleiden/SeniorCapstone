@@ -25,17 +25,13 @@ html, body {
   font-style:normal;
   font-weight:200;
 }
-/*
-/*Navigation*/
- ul {
+
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #33333;
-  position: fixed;
-  width: 100%; 
-  top: 0;
+  background-color: #333;
 }
 
 li {
@@ -54,6 +50,13 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 
+.active {
+  background-color: #4CAF50;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+  color:white;
 .active {
   background-color: #b3b3b3;
 }

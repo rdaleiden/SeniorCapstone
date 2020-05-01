@@ -32,7 +32,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  position: fixed;
 }
 
 li {
@@ -119,9 +118,9 @@ li a:hover {
 }
 
 .myImage {
-  padding: 15px 40px;
+  padding: 35px 40px;
   float: left;
-  width: 30%;
+  width: 40%;
 }
 
 

@@ -76,7 +76,6 @@ li a:hover {
   ul.topnav li {float: none;}
 }
    
-  
 .header {
   padding: -40px;
   font-family:brandon-grotesque, sans-serif; 
@@ -95,10 +94,35 @@ li a:hover {
   text-align: center;
   }
 
+.button{
+  text-align:center;
+  float:center;
+  padding: 15px 40px;
+  border-radius:70px;
+  background-color:white;
+  border:2px solid #4CAF50;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 40px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .myImage {
   padding: 15px 40px;
   float: left;
   width: 30%;
-  max-width:"100px";
 }
+
+
 </STYLE>

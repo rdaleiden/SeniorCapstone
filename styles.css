@@ -99,6 +99,7 @@ li a:hover {
   float:center;
   padding: 15px 40px;
   border-radius:70px;
+  margin: 15px;
   background-color:white;
   border:2px solid #b3b3b3;
   font-family: brandon-grotesque, sans-serif;
@@ -108,6 +109,7 @@ li a:hover {
 .linkedin {
   text-align:center;
   float:center;
+  margin: 15px;
   padding: 15px 40px;
   border-radius:70px;
   background-color:white;

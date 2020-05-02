@@ -97,6 +97,7 @@ li a:hover {
 .button{
   text-align:center;
   float:center;
+  position:center;
   padding: 15px 40px;
   border-radius:70px;
   background-color:white;

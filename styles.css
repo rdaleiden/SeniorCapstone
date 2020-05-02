@@ -96,7 +96,7 @@ li a:hover {
 
 .button{
   text-align:center;
-  float:center;
+  float:center/left;
   padding: 15px 40px;
   border-radius:70px;
   margin: 15px;
@@ -107,7 +107,7 @@ li a:hover {
 }
 
 .linkedin {
-  text-align:center;
+  text-align:center/left;
   float:center;
   margin: 15px;
   padding: 15px 40px;

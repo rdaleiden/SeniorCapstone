@@ -176,6 +176,7 @@ li a:hover {
   border-radius:70px;
   background-color:white;
   border:2px solid #b3b3b3;
+  display: flex;
   justify-content:center;
   align-items:center;
   font-size: 17px;

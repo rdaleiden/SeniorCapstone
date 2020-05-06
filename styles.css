@@ -107,6 +107,10 @@ li a:hover {
   src:url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
 }
 
+.active, .button:hover {
+  background-color: #ccc;
+}
+
 .linkedin {
   text-align:center/left;
   float:center;
@@ -117,6 +121,10 @@ li a:hover {
   border:2px solid #b3b3b3;
 }
   
+.active, .linkedin:hover {
+  background-color: #ccc;
+}
+
 .myImage {
   padding: 40px 40px;
   float: left;
@@ -184,5 +192,10 @@ li a:hover {
   font-family: brandon-grotesque, sans-serif;
   src:url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1da05b/0000000000000000000132df/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
 }
+
+.active, .buttonws:hover {
+  background-color: #ccc;
+}
+
 
 </STYLE>
